@@ -250,17 +250,15 @@ form {
 }
 .image-left {
     position: ralative;
-    /* position: absolute; */
-    left: 90px;
-    /* top: 200px; */
+    left: 15px;
     margin-bottom: 30x;
 }
 .image-right {
     position: ralative;
-    /* position: absolute; */
-    left: 90px;
-    top: 25px;px;
+    left: 15px;
+    top: 25px;
     margin-bottom: 30x;
+    
 }
 .text-left {
     padding-top: 5px;
@@ -268,7 +266,7 @@ form {
     color: white;
     position: relative;
     top: -57px;
-    left: 94px;
+    left: 19px;
     height: 25px;
     width: 300px;
     background-color: #00183C;
@@ -280,7 +278,7 @@ form {
     color: white;
     position: relative;
     top: -58px;
-    left: 92px;
+    left: 17px;
     height: 25px;
     width: 300px;
     background-color: #00183C;
