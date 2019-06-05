@@ -190,3 +190,21 @@ form {
     border-top-width: .2em;
     border-color: #03BCF2;
  }
+
+ /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+      background-color: darkgrey;
+    }
+    .links {
+    
+        background-color: white;
+        position: relative;
+        left: -233px;
+        top: 35px;
+    }
+    .main-text{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10px;
+  }
