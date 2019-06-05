@@ -183,6 +183,8 @@ form {
     position: relative;
     bottom: 0;
     width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
     background-color: #00183C;
     color: white;
     text-align: center;
@@ -194,7 +196,7 @@ form {
  /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 800px) {
     body {
-      background-color: grey;
+      background-color: white;
     }
     h2 {
         margin-top:20px;
@@ -206,10 +208,8 @@ form {
     .name {
         padding-left: 15px;
         text-align: center;
-        /* *display: inline-block; */
         width: 100%;
         background-color: #00183C;
-        /* vertical-align: top; */
     }
     .links {
     text-align: center;
@@ -219,9 +219,7 @@ form {
     margin-top: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    *display: inline-block;
     width: 100%;
-    background-color: white;
     vertical-align: top;
 }
 
@@ -249,5 +247,12 @@ form {
     height: 90%;
     padding-bottom: 15px;
 }
+.image-left {
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    margin-bottom: 30x;
+}
+
 
 }
