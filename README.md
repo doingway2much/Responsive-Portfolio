@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Responsive Portfolio using css and media queries
+# Basic-Portfolio
+This is a repository for my class project.  
