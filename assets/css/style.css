@@ -220,7 +220,6 @@ form {
 @media only screen and (max-width: 768px) {
     .name {
         margin-left: 4%;
-        background-color: red;
     }
     .links {
         left: 15%;
@@ -245,8 +244,6 @@ form {
         padding-left: 15px;
         text-align: center;
         width: 100%;
-        /* background-color: #00183C; */
-        background-color: green;
     }
     
     .links {
@@ -283,7 +280,9 @@ form {
     
     .main-text {
         margin-top: 40px;
-        width: 80%;
+        margin-left: auto;
+        
+        width: 400px;
         height: 100%;
         padding-bottom: 15px;
         position: ralative;
@@ -311,7 +310,7 @@ form {
     .text-right {
         position: relative;
         top: -37px;
-        left: 5px;
+        left: 52px;
    
       
     }
