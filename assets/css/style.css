@@ -271,18 +271,18 @@ form {
         float: left;
         padding: 1px;
         margin: 15px;
+        Margin-left: 35px;
         border-radius: 5px;
         border: 2px solid;
         border-color: #00183C;
-        width: 90%;
-        height: 90%;
+        width: 80%;
+        height: 80%;
     }
     
     .main-text {
         margin-top: 40px;
         margin-left: auto;
-        
-        width: 400px;
+        width: 350px;
         height: 100%;
         padding-bottom: 15px;
         position: ralative;
@@ -290,27 +290,27 @@ form {
     
     .image-left {
         position: ralative;
-        left: 50px;
+        left: 25PX;
         margin-bottom: 30x;
     }
     
     .image-right {
         position: ralative;
-        left: 50px;
+        left: 25px;
         top: 25px;
         margin-bottom: 30x;
     }
     
     .text-left {
         top: -37px;
-        left: 55px;
+        left: 28px;
  
     }
     
     .text-right {
         position: relative;
         top: -37px;
-        left: 52px;
+        left: 27px;
    
       
     }
