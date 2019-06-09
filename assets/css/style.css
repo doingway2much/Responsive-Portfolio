@@ -184,26 +184,49 @@ form {
 
 /* On screens that are 600px or less, set the background color to olive */
 @media only screen and (max-width: 980px) {
-
-.container-top {
-
-}
+    .image-right {
+        margin-op: 100px;
+        position: ralative;
+        left: 335px;
+  
+    }
+    .text-right {
+        position: ralative;
+        left: 335px;
+       
+    }
+    .image-left {
+        position: ralative;
+        left: 15px;
+  
+    }
+    .text-left {
+        position: ralative;
+        left: 15px;
+       
+    }
 .name {
     margin-left: 4%;
 }
 .main-text {
-    width: 625px;
+    width: 650px;
     margin-left: 5%;
-    height: 100%;
+    height: 700px;
 }
 .links {
-    left: 40%;
-
+    left: 30%;
 }
-only screen and (max-width: 768px) {
-
 }
-only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
+    .name {
+        margin-left: 4%;
+        background-color: red;
+    }
+    .links {
+        left: 15%;
+    }
+}
+@media only screen and (max-width: 640px) {
     body {
         background-color: white;
     }
@@ -218,10 +241,12 @@ only screen and (max-width: 640px) {
     }
     
     .name {
+        margin-left: -4%;
         padding-left: 15px;
         text-align: center;
         width: 100%;
-        background-color: #00183C;
+        /* background-color: #00183C; */
+        background-color: green;
     }
     
     .links {
@@ -266,40 +291,28 @@ only screen and (max-width: 640px) {
     
     .image-left {
         position: ralative;
-        left: 15px;
+        left: 50px;
         margin-bottom: 30x;
     }
     
     .image-right {
         position: ralative;
-        left: 15px;
+        left: 50px;
         top: 25px;
         margin-bottom: 30x;
     }
     
     .text-left {
-        padding-top: 5px;
-        text-align: center;
-        color: white;
-        position: relative;
-        top: -57px;
-        left: 19px;
-        height: 25px;
-        width: 300px;
-        background-color: #00183C;
-        opacity: .7;
+        top: -37px;
+        left: 55px;
+ 
     }
     
     .text-right {
-        padding-top: 5px;
-        text-align: center;
-        color: white;
         position: relative;
-        top: -58px;
-        left: 17px;
-        height: 25px;
-        width: 300px;
-        background-color: #00183C;
-        opacity: .7;
+        top: -37px;
+        left: 52px;
+   
+      
     }
 }
